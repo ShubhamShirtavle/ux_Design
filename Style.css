@@ -1,0 +1,130 @@
+.wrapper{
+    clear: both;
+}
+
+.header{
+    clear: both;
+}
+
+.sidebar-menu{
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+
+.logo{
+    background-color:rgb(255, 255, 255);
+    /* float: left; */
+    width: 10%;
+    box-shadow: 7px 12px 12px 7px rgb(0 0 0 / 20%);
+    position: relative;
+}
+.logo img{
+    max-width: 100%;
+}
+
+.tab-content{
+    width: 90%;
+    height: 100%;
+    float: right;
+}
+.containt {
+    background-color:#f4f5f7;
+    text-align: center;
+    height: 100%;
+}
+.menu{
+    background-color:#fafafa; 
+    box-shadow: 7px 12px 12px 7px rgb(0 0 0 / 20%);
+    position: relative;
+    height: 100%;
+    }
+
+.option{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.option.active, .option:hover{
+    background-color: #d1e1ee;
+    border-left: 4px solid #4071b3;
+    color: #293c4a;
+}  
+
+.option img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+}
+
+
+.inputbox{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    border: none;
+
+}
+
+::placeholder {
+    font-weight: bold;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: bold;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-weight: bold;
+  }
+
+label::before {
+    color: slategrey;
+    content: ' \25C0';
+    padding-right: 20px;
+    padding-left: 80px;
+}
+.video{
+   margin-right: 90%;
+   color:#718a9e;
+   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+    
+.square {
+    height: 20px;
+    width: 200px;
+    background-color:white;
+    margin-left : 15%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  
+   
+  }
+  .or{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: #708090;
+
+  }
+  .up{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+
